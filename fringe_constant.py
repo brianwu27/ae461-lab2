@@ -18,7 +18,6 @@ M = (F / 2.0) * a # Applied moment
 z_in = np.array([0.075, 0.313, 0.545, 0.770, 0.973])
 z = z_in * 0.0254
 
-
 # BENDING STRESS
 y = H/2.0 - z
 sigma = np.abs(M * y / I)   # Stress in Pa
